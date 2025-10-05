@@ -1,4 +1,4 @@
-package tema2;
+package aled.ejercicios.tema2.persona;
 
 import java.util.ArrayList;
 import java.util.List;

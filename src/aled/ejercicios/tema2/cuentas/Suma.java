@@ -1,4 +1,4 @@
-package tema2;
+package aled.ejercicios.tema2.cuentas;
 
 public class Suma {
 
