@@ -37,6 +37,13 @@ public class Coordinate {
 		Coordinate other = (Coordinate) obj;
 		return ( (this.x == other.x) && (this.y == other.y) );
 	}
+
+	@Override
+	public String toString() {
+		return "Coordinate [x=" + x + ", y=" + y + "]";
+	}
+	
+	
 	
 	
 }

@@ -104,6 +104,6 @@ public class MazeSolver {
 		// Creamos el resolvedor de laberintos
 		MazeSolver solver = new MazeSolver(maze, '#', start, end);
 		// Lo ejecutamos
-		System.out.println(solver.solve());
+		System.out.println(solver.solve().toString());
 	}
 }
