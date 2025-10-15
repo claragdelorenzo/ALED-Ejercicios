@@ -3,7 +3,19 @@ package aled.ejercicios.tema2.complejidad;
 public class BubbleSort {
 	
 	public static void ordenacionBubble(int[] lista) {
-				
+		boolean flag;
+		do {
+			flag = true;
+			for(int i =0; i < (lista.length-1); i++) {
+				if(lista[i]>lista[i+1] && (i+1)<lista.length) {
+					int aux = lista[i];
+					lista[i] = lista[i+1];
+					lista[i+1] = aux;
+					flag = false;
+				}
+			}
+			
+			}while(!flag);
 	}
 	
 	public static String toString (int[] lista) {
