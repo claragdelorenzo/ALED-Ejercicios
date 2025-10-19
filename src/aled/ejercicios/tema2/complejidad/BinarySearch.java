@@ -3,7 +3,6 @@ package aled.ejercicios.tema2.complejidad;
 public class BinarySearch {
 
 	private static int binarySearch(int[] list, int lo, int hi, int value) {
-		// DEBERES: ¿Implementarlo con recursividad?
 		do {
 			int me = (int) Math.floor(lo + (hi-lo)/2);
 			int v = list[me]; // O(1)
