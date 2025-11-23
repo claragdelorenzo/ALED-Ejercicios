@@ -27,9 +27,9 @@ public class BubbleSort {
 				// Si es mayor que el segundo, los cambiamos
 				if (lista[j] > lista [j+1]) {
 					// Permutación de elementos
-					int aux = lista[i];
-					lista[i] = lista[i+1];
-					lista[i+1] = aux;
+					int aux = lista[j];
+					lista[j] = lista[j+1];
+					lista[j+1] = aux;
 				}
 			}
 		}
